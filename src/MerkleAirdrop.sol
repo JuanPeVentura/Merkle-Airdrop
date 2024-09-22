@@ -18,7 +18,7 @@ contract MerkleAirdrop is EIP712 {
 
 
 
-    address[] s_claimers;
+
     bytes32 private immutable i_merkleRoot;
     IERC20 private immutable i_airdropToken;
     mapping(address => bool) private s_hasClaimed;
